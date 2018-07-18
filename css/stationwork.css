@@ -1,0 +1,357 @@
+body{
+  font-family: roboto;
+}
+
+@font-face {
+
+      font-family: "roboto";
+      src: url("../fonts/roboto.ttf") format("truetype");
+}
+
+
+.fundoregisto{
+   margin:0;
+   padding:0;
+   position: fixed;
+   width:100%;
+   height: 100%;
+   left: 0;
+   top: 0;
+   background-repeat: no-repeat;
+   z-index: -100;
+   background-attachment: fixed;
+   background: white;
+
+}
+   
+/************navbar***************/
+#menu{
+  background-color: black;
+}
+
+
+.navbar{
+  margin: 0px 0px 0px 30px;
+  background-color: rgb(0, 209, 178);
+}
+
+.navbar-brand {
+  padding: 8px 0px 8px 50px;
+}
+
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+  padding-right: 10px;
+}
+
+.navbar-right{
+  padding: 0px 0px 0 20px;
+  color:white;
+}
+
+.navegation{
+  margin: 0px 0px 0 0;
+  margin-bottom: 30px;
+  border-color: transparent;
+}
+
+.navbar-toggle{
+    color: black;
+}
+
+.collapse{
+
+  opacity: 1;
+  border-style: none:
+
+}
+
+.navbar-header{
+  border-color: transparent;
+
+}
+
+.navegation .navbar-brand {
+  height: 80px;
+}
+
+.asminhasequipas .nav >li >a:hover{
+  color: white;
+}
+
+.navegation .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+ /* color:rgb(22, 224, 230);*/
+}
+
+.navegation .nav >li >a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.navegation .navbar-toggle {
+  padding: 10px;
+  margin: 15px 15px 25px 0;
+}
+
+.regista{
+ background-color: rgba(255, 255, 255, 0.3);
+  margin: 0 50px 0px 0;
+  padding:  0 50px 0px 0;
+  } 
+
+.nav-2{
+  padding-top: 10rem;
+  width: 8rem;
+  height: 5rem;
+  background-color: rgba(5, 180, 200, 1);
+  margin-left: 0;
+}
+
+.nav-lateral{
+  margin-top: 0rem;
+}
+
+.nav-lateral-1{
+  color: white;
+  background-color: rgb(0, 209, 178);
+  max-width: 15rem;
+  height: 10rem;
+  border-bottom-right-radius: 100px;
+  margin-left: 0px;
+  font-size: 17px;
+ /* padding-top: 30px;*/
+  padding-left: 0px;
+  -webkit-transition: width 0s; /* For Safari 3.1 to 6.0 */
+  transition: max-width 0s;
+  color:white;
+}
+
+.nav-lateral-1:hover {
+    max-width:40rem;
+    background-color: #FFB619;
+    display: inline-block;
+}
+
+.coiso{
+  color:white;
+  padding-left: 0rem;
+  display: inline-block;
+}
+
+#demo{
+  visibility: hidden;
+  height: 10rem;
+  max-width: 40rem;
+  padding-top: 3rem;
+  margin-left: 0rem;
+  display: inline-block;
+}
+
+#perfil{
+ display: inline-block;
+  padding-top: 1rem;
+  padding-left: 4rem;
+}
+
+.dropdown{
+  display: inline-block;
+  color:white;
+}
+
+.dropdown-menu{
+  background-color: rgb(0, 209, 178);
+  color: white;
+  border-radius: 0px 0px 50px 0px;
+  border:none;
+}
+
+.dropdown-menu >li >a{
+  background-color: transparent;
+  color: white;
+}
+
+
+.dropdown-menu >li >a:hover{
+  background-color: transparent;
+  color: white;
+  text-decoration: underline;
+}
+
+.texto-dropdown{
+  color:white;
+}
+
+.foto-perfil{
+  max-height: 4rem;
+  margin-left: 4rem;
+  display: inline-block;
+  padding-right: 1rem;
+
+}
+
+.foto-amigos{
+  max-height: 4rem;
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+.chat-icon{
+  max-height: 4rem;
+  margin-top: -1rem;
+}
+
+.update-form{
+  margin-top: 5rem;
+}
+
+.form-control{
+  border: none;
+  border-radius: 1px;
+  background-color: rgba(0, 209, 178, 0.1);
+}
+
+.fotografia{
+  margin-top: 5rem;
+  border-radius: 100px;
+  max-height: 20rem;
+  padding-left: 1rem;
+}
+
+
+.nomedeperfil{
+  margin-top: 10rem;
+  color:black;
+  padding-top: 5rem;
+}
+
+.alterar-foto{
+  font-size: 2em;
+  color:rgb(0, 209, 178);
+  text-align: left;
+  margin-top: 3rem;
+}
+
+.space{
+  margin-top: 9rem;
+  color:rgb(0, 209, 178);
+  font-size: 25px;
+}
+/*************FIM navbar************/
+
+.tarefas-rapidas{
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.tarefas-pessoais{
+  border: none;
+  color:#FFB619;
+  height: 400px;
+  padding-top: 2rem;
+  margin-left: -10px;
+  font-size: 16pt;
+}
+
+.tarefas-pessoais-2{
+  border: 1px solid rgb(0, 180, 178);
+  border-radius: 0px 0px 50px 0px;
+  height: 300px;
+  background-color: white;
+  color:rgb(0, 180, 178);
+  margin-top: 1rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  padding-top: 1rem;
+  padding-left: 0rem;
+}
+
+.tarefas-pessoais-2 .form-control{
+  background-color: white;
+  border: 1px solid rgb(0, 180, 178);
+  width: 80%;
+}
+
+.criar-projeto{
+  border: 1px solid rgb(0, 180, 178);
+  background-color: white;
+  color:black;
+  height: 400px;
+  padding-top: 2rem;
+  margin-left: -10px;
+  border-radius: 0px 0px 50px 0px;
+  font-size: 12pt;
+}
+
+.criar-projeto .form-control{
+  border: 1px solid rgb(0, 180, 178);
+  background-color: white;
+  width: 80%;
+}
+
+.criar-projeto .form-group{
+  margin-top: 2rem;
+}
+
+.titulo{
+  border: 1px solid rgb(0, 180, 178);
+  color: rgb(0, 180, 178);
+  /*background-color: rgb(0, 180, 178);
+  color: white;*/
+}
+
+.titulo-2{
+  border: 1px solid rgb(0, 180, 178);
+  color: rgb(0, 180, 178);
+  margin-left: 1rem;
+  /*background-color: rgb(0, 180, 178);
+  color: white;*/
+}
+
+.datas-finais{
+  border: 1px solid rgb(0, 180, 178);
+  background-color: white;
+  color:black;
+  height: 300px;
+  padding-top: 10px;
+  margin-left: 10px;
+  border-radius: 0px 0px 50px 0px;
+  margin-top: 1rem;
+}
+
+.botao-login{
+  color:grey;
+  width: 30%;
+  border: none;
+  padding-top:1%;
+  padding-bottom: 1%;
+  font-size: 12pt;
+  background-color: rgba(0, 209, 178, 0.1);
+  border: 1px solid rgb(0, 209, 178);
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: rgba(0, 209, 178, 0.1);
+  text-align: center;
+  color:rgb(91,91,95);
+  
+}
+@media (max-width: 600px){
+.alterar-foto{
+font-size: 1em;
+}
+
+
+
+
+
+
+}
